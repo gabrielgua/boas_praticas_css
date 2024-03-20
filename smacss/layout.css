@@ -1,0 +1,17 @@
+.container {
+    width: min(1024px, 100% - 4rem);
+    margin-inline: auto;
+}
+
+header > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1rem;
+
+}
+
+header li {
+    display: inline;
+    margin-left: 1rem;
+}

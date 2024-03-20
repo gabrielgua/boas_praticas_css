@@ -1,0 +1,45 @@
+.title {
+    font-size: 2em;
+}
+
+.mensagem {
+
+    padding: .5rem;
+    border: 1px solid #333;
+    border-radius: .5rem;
+}
+
+.mensagem-titulo {
+    font-size: 1.2em;
+}
+
+.mensagem-conteudo {
+    font-size: .9em;
+}
+
+.mensagem-is-error {
+    color: red;
+    border-color: red;
+    background-color: rgba(255, 0, 0, .15);
+}
+
+.accordion {
+    border: 1px solid black;
+}
+
+.accordion-header {
+    padding: .5rem;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.accordion-content {
+    padding: .5rem;
+    border-top: 1px solid #eee;
+    display: none;
+}
+
+.accordion-is-open .accordion-content {
+    display: block;
+}

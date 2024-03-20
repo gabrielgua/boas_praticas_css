@@ -1,0 +1,15 @@
+.form {
+  margin: 2rem;
+}
+.form__control {
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+}
+.form__submit {
+  cursor: pointer;
+}
+.form__submit--pending {
+  cursor: wait;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,16 @@
+.form {
+    margin: 2rem;
+
+    &__control {
+        margin-bottom: 1rem;
+        font-family: sans-serif;
+    }
+
+    &__submit {
+        cursor: pointer;
+
+        &--pending {
+            cursor: wait;
+        }
+    }
+}
